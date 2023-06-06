@@ -19,6 +19,9 @@ body {
 body {
   font-family: "Montserrat", sans-serif;
 }
+#home{
+  background-color:rgb(50, 125, 36)
+}
 
 .header-section {
   position: sticky;
@@ -159,6 +162,42 @@ body {
 }
 
 .about-content-heading{
+font-size: 32px;
+  margin-bottom: 30px;
+  color: #333;
   text-align: center;
 }
 
+#contact h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #333;
+  text-align: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.contact-form textarea {
+  height: 100px;
+}
+
+.contact-form button {
+  background-color:blue;
+  color: black;
+  border: initial;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+}
